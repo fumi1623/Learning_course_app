@@ -1,0 +1,7 @@
+<h1>コース一覧</h1>
+
+<% @learning_courses.each do |learning_course| %>
+<div>
+  <%= attachment_image_tag learning_course, :image %>
+</div>
+<% end %>
